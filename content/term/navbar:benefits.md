@@ -1,7 +1,6 @@
 ---
-title: 'navbar:benefits'
-pt: >-
-    Benefícios
-en: >-
-    Benefits
+title: navbar:benefits
+pt: Benefícios
+en: Benefitsx
+
 ---
