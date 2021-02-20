@@ -1,0 +1,34 @@
+---
+label: Post
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: type
+  label: type
+- type: text
+  name: pt:image
+  label: pt:image
+- type: text
+  name: en:image
+  label: en:image
+- type: text
+  name: pt:name
+  label: pt:name
+- type: text
+  name: en:name
+  label: en:name
+- type: textarea
+  name: pt:summary
+  label: pt:summary
+- type: textarea
+  name: en:summary
+  label: en:summary
+- type: textarea
+  name: pt:text
+  label: pt:text
+- type: textarea
+  name: en:text
+  label: en:text
