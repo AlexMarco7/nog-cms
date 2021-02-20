@@ -26,9 +26,21 @@ fields:
 - type: textarea
   name: en:summary
   label: en:summary
-- type: textarea
-  name: pt:text
+- name: pt_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
   label: pt:text
-- type: textarea
-  name: en:text
+- name: en_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
   label: en:text
