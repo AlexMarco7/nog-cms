@@ -1,0 +1,42 @@
+backend:
+  name: git-gateway
+  branch: master 
+media_folder: "/media"  
+collections:
+  - name: "text" 
+    label: "text" 
+    folder: "content/text" 
+    create: true 
+    delete: false
+    fields:
+      - {label: "Key", name: "title", widget: "string"}
+      - {label: "Português", name: "pt", widget: "markdown"}
+      - {label: "Inglês", name: "en", widget: "markdown"}
+  
+  - name: "term"    
+    label: "term" 
+    folder: "content/term" 
+    create: true
+    delete: false 
+    fields: 
+      - {label: "Key", name: "title", widget: "string"}
+      - {label: "Português", name: "pt", widget: "string"}
+      - {label: "Inglês", name: "en", widget: "string"}
+  
+  - name: "post"    
+    label: "post" 
+    folder: "content/post" 
+    create: true
+    delete: false 
+    fields: 
+      - {label: "Key", name: "title", widget: "string"}
+      - {label: "Tipo", name: "type", widget: "string"}
+      - {label: "Imagem Português", name: "pt:image", widget: "image"}
+      - {label: "Imagem Inglês", name: "en:image", widget: "image"}
+      - {label: "Título português", name: "pt:name", widget: "string"}
+      - {label: "Título inglês", name: "en:name", widget: "string"}
+      - {label: "Texto português", name: "pt:summary", widget: "markdown"}
+      - {label: "Texto inglês", name: "en:summary", widget: "markdown"}
+      - {label: "Texto português", name: "pt:text", widget: "markdown"}
+      - {label: "Texto inglês", name: "en:text", widget: "markdown"}
+   
