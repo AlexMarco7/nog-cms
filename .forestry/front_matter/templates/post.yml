@@ -26,7 +26,7 @@ fields:
 - type: textarea
   name: en:summary
   label: en:summary
-- name: pt_text
+- name: pt:text
   type: textarea
   default: ''
   config:
@@ -35,7 +35,7 @@ fields:
     schema:
       format: markdown
   label: pt:text
-- name: en_text
+- name: en:text
   type: textarea
   default: ''
   config:
