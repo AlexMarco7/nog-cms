@@ -1,0 +1,13 @@
+---
+label: Termo
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: pt
+  label: pt
+- type: text
+  name: en
+  label: en
