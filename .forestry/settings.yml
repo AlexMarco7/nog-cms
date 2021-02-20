@@ -12,7 +12,7 @@ sections:
   templates:
   - termo
 - type: directory
-  path: contant/text
+  path: content/text
   label: Textos
   create: documents
   match: "**/*"
