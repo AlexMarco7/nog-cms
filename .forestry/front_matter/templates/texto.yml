@@ -5,9 +5,21 @@ fields:
 - type: text
   name: title
   label: title
-- type: text
-  name: pt
+- name: pt
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
   label: pt
-- type: text
-  name: en
+- name: en
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
   label: en
