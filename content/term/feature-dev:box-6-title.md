@@ -1,6 +1,6 @@
 ---
-title: 'feature-dev:box-6-title'
-pt: 'feature-dev:box-6-title'
+title: feature-dev:box-6-title
+pt: BASEADO EM API
 en: API Driven
----
 
+---
