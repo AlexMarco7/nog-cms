@@ -13,3 +13,4 @@ fields:
   label: en
 pages:
 - content/term/cookie-accept.md
+- content/term/cookie-reject.md
