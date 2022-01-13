@@ -23,3 +23,5 @@ fields:
     schema:
       format: markdown
   label: en
+pages:
+- content/text/cookie-text.md
