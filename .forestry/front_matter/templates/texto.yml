@@ -25,3 +25,4 @@ fields:
   label: en
 pages:
 - content/text/cookie-text.md
+- content/text/site-title.md
