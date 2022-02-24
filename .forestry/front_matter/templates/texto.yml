@@ -25,4 +25,5 @@ fields:
   label: en
 pages:
 - content/text/cookie-text.md
+- content/text/page-not-found-text.md
 - content/text/site-title.md
