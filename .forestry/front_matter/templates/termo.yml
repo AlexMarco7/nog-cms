@@ -12,6 +12,7 @@ fields:
   name: en
   label: en
 pages:
+- content/term/404-title.md
 - content/term/cookie-accept.md
 - content/term/cookie-reject.md
 - content/term/cookie-title.md
